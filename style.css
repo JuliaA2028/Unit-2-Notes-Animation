@@ -1,1 +1,25 @@
+.box {
+    background: rgb(196, 224, 241);
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    /*just to look better*/
+}
 
+/*Transform is a property with function values that change elements in various ways*/
+
+#rotate{
+    transform:rotate(10deg);
+}
+#scale{
+    transform:scale(.9)
+/*scale(1)= origional*/
+}
+#skew{
+    transform:skew()
+}
+
+#translate{
+    transform:translate
+}
