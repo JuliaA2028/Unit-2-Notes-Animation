@@ -13,13 +13,21 @@
     transform:rotate(10deg);
 }
 #scale{
-    transform:scale(.9)
+    transform:scale(.9);
 /*scale(1)= origional*/
 }
 #skew{
-    transform:skew()
+    transform:skew(-10deg);
 }
 
 #translate{
-    transform:translate
+    transform:translate(10px,5px)
+    /*translates like a graph along x and y axis
+    example: 10px (x),5px (y)*/
+}
+#chain {
+    transform: rotate(95deg) skew(-10deg) scale(.9) translate(10px,15px)
+
+  /*You can chain/ merge transforms on one element*/
+}
 }
