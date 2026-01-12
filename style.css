@@ -1,3 +1,24 @@
+/*STEP 1:  configure an element to be animated using the shortcut animation property which combines name, duration, iteration count, and timing function into ONE line.*/
+
+#animated-emoji {
+    font-size: 125px;
+    /*spin in place V*/
+    display: inline-block; 
+    animation: move-emoji 5s infinite ease-in-out;
+margin:0;}
+
+/*STEP 2: define an animation sequence*/
+
+@keyframes move-emoji {
+    0% {
+        transform: rotate(0deg);}
+    50% {
+        transform: rotate(180deg) scale(0.5);}
+    100% { 
+        Transform: rotate(360deg);}
+    }
+
+
 .box {
     background: rgb(196, 224, 241);
     margin: 20px;
